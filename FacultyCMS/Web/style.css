@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+ }
+ body{
+    background-image: url(home\ page.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ nav{
+    width: 90%;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    nav ul li{
+        
+        display: inline-block;
+        margin: 0 15px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: small;
+        font-weight: bold;
+        padding: 5px;
+       
+        border-radius: 10px;
+        cursor: pointer;
+        
+    }
+    .logo{
+        width: 130px;
+    }
+    a:hover{
+   
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    } 
+    h1{
+        font-size: 20px;
+    }
+    
+    

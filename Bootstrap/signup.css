@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+ }
+ body{
+    background-image: url(home\ image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ nav{
+    width: 96%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    nav ul li{
+        
+        display: inline-block;
+        margin: 0 20px;
+        
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: large;
+        font-weight: bold;
+        padding: 15px;
+       
+        border-radius: 15px;
+        cursor: pointer;
+        
+    }
+    .logo{
+        width: 220px;
+    }
+    a:hover{
+   
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+    } 
+    h1{
+        font-size: 30px;
+    }
+    
+    .container
+    {
+        margin: 50px;
+    }
+    .btn{
+        background-color: black;
+        color: white;
+       
+        border-radius: 10px;
+        font-size: x-large;
+        padding: 5px;
+        width: 150px;
+    }
+    .btn:hover{
+        color: white;
+        background-color: rgb(28, 97, 132);
+    }
+    .name{  width: 217px;  padding: 7px; }
+    .name1{  width: 208px;  padding: 7px; }
+    .name2{  width: 212px;  padding: 7px; } 
+    .name3{  width: 208px;  padding: 7px; }
+    .name4{  width: 211px;  padding: 7px; }
+    .name5{  width: 212px;  padding: 7px; }
+    .name6{  width: 208px;  padding: 7px; }
+    .name7{  width: 204px;  padding: 7px; }
+    .name8{  width: 204px;  padding: 7px; }
+    .designation{
+        width: 228px;
+        padding: 7px;
+    }
+    .department{
+        width: 225px;
+        padding: 7px;
+    }

@@ -1,0 +1,13 @@
+body{
+    background-image: url(home\ image\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 20px;
+    margin: 25px;
+    padding-left: 170px;
+}
+.logo{
+    width: 170px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.webp" alt="" class="logo">
+        <h1>Reports</h1>
+        <ul>
+            <li><a href="index.html" class="btn">Home</a></li>
+            <li><a href="#">Add</a></li>
+            <li><a href="#">Update</a></li>
+            <li><a href="#">Delete</a></li>
+            <li><a href="#">View</a></li>
+        </ul>
+    </nav>
+    <form action="" id="form">
+        &emsp;<input type="text" id="username" placeholder="Username" required><br><br>
+        &emsp;<input type="email" id="email" placeholder="Email" required><br><br>&emsp;&emsp;&emsp;
+        <input type="submit" id="btn1" value="Register">
+    </form>
+    <div id="info">
+        
+    </div>
+    <p class="output" id="output1"></p>
+</body>
+<script>
+    var form=document.getElementById('form')
+    form.addEventListener('submit',function(event){
+        event.preventDefault()
+        var username=document.getElementById('username').value
+        console.log(username)
+        var email=document.getElementById('email').value
+        console.log(email)
+        document.write("Username = "+username);
+
+
+    })
+</script>
+</html>
